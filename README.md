@@ -1,3 +1,15 @@
+# Crop Recommendation App
+
+# Description
+
+The Crop Recommendation App helps farmers and agricultural stakeholders identify the best crops to plant based on specific environmental parameters such as soil Nitrogen (N), Phosphorus (P), Potassium (K), temperature, humidity, pH level, and rainfall. The app collects these parameters through a sign-up interface and provides crop recommendations to optimize farming outputs.
+
+# Features:
+
+User sign-up with input fields for essential soil and environmental parameters.
+Crop recommendation logic based on machine learning models.
+Clean and intuitive UI for easy data input.
+
 ## How to run the backend:
 
 create a virtual env:
