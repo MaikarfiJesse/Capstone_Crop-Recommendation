@@ -28,7 +28,8 @@ cd agri-tech/src
 install dependencies
 ```sh
 npm i
+npm run dev
 ```
 
 open browser
-copy url and paste on a browser : -http://localhost:5173/
+copy url and paste on a browser : http://localhost:5173/
