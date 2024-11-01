@@ -46,7 +46,7 @@ npm run dev
 open browser
 copy url and paste on a browser : http://localhost:5173/
 
-## Link to the Final Version of the product (All files, including demo video, detailed report and other related files 
+# Link to the Final Version of the product (All files, including demo video, detailed report, link to the deployed version and other related files to the project)
 
 https://drive.google.com/drive/folders/1AzlgX72VSQcrR2__B7wboHQo2uIfDie2?usp=sharing
 
