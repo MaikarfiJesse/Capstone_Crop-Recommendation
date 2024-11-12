@@ -194,7 +194,7 @@ function DataFields() {
               Back
             </button>
           </Link>
-          <button type="submit" onClick={handleSubmit}>
+          <button id="confirm" type="submit" onClick={handleSubmit}>
             Confirm Crop
           </button>
         </div>
@@ -204,10 +204,10 @@ function DataFields() {
           <h2>Results</h2>
           {isLoading && <h2>The best crop for these conditions is:</h2> }
           
-          {isLoading && <OrbitProgress variant="spokes" dense color="#32cd32" size="large" text="Loading..." textColor="#070707" /> }
+          {isLoading && <OrbitProgress variant="spokes" dense color="#32cd32" size="large" text="Loading..." textColor="wheat" /> }
       
           {/* {result && <p>{result}</p>} */}
-          {!isLoading && <p>{result}</p>}
+          {!isLoading && <h3>The reccommended crops is: <br></br><b>{result}</b></h3>}
         </div>
       </div>
     </div>

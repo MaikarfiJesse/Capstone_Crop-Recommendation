@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    max-height: 110vh;
 }
 
 #body h1, h2, button{
@@ -11,8 +12,27 @@
 
 Button {
     cursor: pointer;
+}
+
+#main, #lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10%; */
+}
+
+#text{
+    padding: 20px;
+    color: rgb(9, 133, 36);
 
 }
+
+#image{
+    padding: 20px;
+}
+
+
 
 @media screen and (max-width: 768px){
     #body{
@@ -22,8 +42,23 @@ Button {
 
     Button{
         width: 100%;
-        background-color: rgb(9, 12, 10);
+        /* background-color: rgb(9, 12, 10); */
         border: 1px solid transparent;
     }
     
+    #main, #lower{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #text, #image{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #lower > #image{
+        display: none;
+    }
 }
